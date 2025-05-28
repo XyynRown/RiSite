@@ -1,0 +1,217 @@
+<div id="main-content" class="container-fluid bg-black text-white" style="padding-top: 112px;">
+    <!-- banner -->
+    <div class="fade-blur-wrapper py-2">
+        <img src="img/kamael/banner.png" class="img-fluid w-100" alt="gambar">
+        <div class="fade-overlay"></div>
+    </div>
+
+    <!-- main content -->
+    <section id="overview">
+        <div class="container-fluid mb-4 p-2">
+            <h1 class="px-2">Apa itu Guardian Tales?</h1>
+            <div class="col px-4 text-justify">
+                <p><b>Guardian Tales</b> adalah permainan action role-playing yang dirilis pada tahun 2020, dikembangkan oleh <b>Kong Studios</b> dan diterbitkan oleh penerbit asal Korea Selatan, <b>Kakao Games.</b> Permainan ini pertama kali diluncurkan secara terbatas di beberapa wilayah Asia Tenggara pada 24 Februari 2020 untuk perangkat iOS dan Android, lalu dirilis secara resmi untuk seluruh dunia pada 28 Juli 2020. Versi berbahasa Mandarin yang diterbitkan oleh Bilibili dirilis pada 27 April 2021, sedangkan versi berbahasa Jepang yang diterbitkan secara mandiri oleh <b>Kong Studios</b> bekerja sama dengan <b>Yostar</b> dirilis pada 6 Oktober 2021. Versi port untuk <b>Nintendo Switch</b> awalnya diumumkan pada Mei 2021 dan dijadwalkan rilis pada paruh akhir tahun yang sama, namun akhirnya mengalami penundaan dan dirilis secara resmi pada 4 Oktober 2022.</p>
+                <p>Permainan ini mengisahkan tentang <b>Guardian Knight</b>, seorang anggota baru pasukan kerajaan <b>Kanterbury Kingdom</b> yang disebut sebagai <b>Guardian.</b> Setelah menyelesaikan pelatihan pertamanya sebagai Guardian, Guardian Knight langsung dihadapkan dengan serangan dari kelompok musuh yang disebut <b>The Invaders</b>, yang berniat menguasai dunia. <b>Guardian Tales</b> mendapat sambutan positif dari para kritikus maupun pemain, dan dipuji karena kreativitasnya serta keberhasilannya membangkitkan nuansa permainan <b>JRPG klasik.</b></p>
+            </div>
+        </div>
+    </section>
+    <section id="profile">
+        <div class="container-fluid my-4">
+            <h1 class="px-2">My Account</h1>
+            <div class="table-responsive-lg mx-4">
+                <table class="table table-dark bg-transparent text-white">
+                    <thead>
+                    <tr>
+                        <th>In-Game Name</th>
+                        <th>ID Player</th>
+                        <th>Server</th>
+                        <th>Level Guardian</th>
+                        <th>Current World</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Shouji</td>
+                        <td>#1R08N3</td>
+                        <td>Asia 2</td>
+                        <td>300</td>
+                        <td>World 15</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="char">
+        <div class="container-fluid my-4">
+            <h1 class="px-2">Favorite Character</h1>
+            <div class="col-12 px-4 my-4 text-justify">
+                <p>Karakter favoritku di game ini yakni Kamael. Salah satu alasan utama aku menyukai Kamael adalah karena desain original-nya yang sangat keren dan unik. Karakter ini punya nuansa misterius tapi tetap terlihat powerful, terutama dengan jubah dan tongkatnya yang khas. Dari awal muncul, Kamael udah kelihatan beda dari hero lain — desainnya nggak terlalu ramai tapi tetap punya aesthetic yang kuat. His default look gives off a vibe of elegance and strength, and that instantly made him one of my favorite characters in the game.</p>
+                <p>Selain itu, desain blooming-nya menurutku sangat memukau dan karismatik. Wujud evolusi Kamael ini memberi kesan bahwa dia sudah mencapai bentuk tertingginya — lebih tegas, lebih matang, dan penuh aura kepemimpinan. The way his appearance evolves feels like a natural growth of his story and power. Dengan efek visual yang lebih megah dan sikap tubuh yang lebih percaya diri, Kamael tampil seperti sosok pemimpin yang tidak hanya kuat, tapi juga bisa diandalkan di medan perang.</p>
+                <p>Dari segi gameplay, Kamael juga sangat memuaskan. Dia tergolong karakter yang mudah digunakan, bahkan untuk pemain yang tidak terlalu suka mekanik rumit. He has great AoE damage, solid sustain, and works well in many team compositions. Hal ini bikin Kamael nggak cuma menarik dari segi visual, tapi juga sangat relevan dan berguna di hampir semua mode permainan. Karakter yang punya kombinasi penampilan, kekuatan, dan kemudahan seperti ini jelas pantas jadi favorit.</p>
+            </div><hr>
+
+            <!-- Nav Pills -->
+            <ul class="nav nav-pills nav-fill m-4" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-overview-tab" data-bs-toggle="pill" data-bs-target="#pills-overview" type="button" role="tab">Overview</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lore-tab" data-bs-toggle="pill" data-bs-target="#pills-lore" type="button" role="tab">Lore</button>
+                </li>
+            </ul>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="pills-tabContent">
+                
+                <!-- Overview -->
+                <div class="tab-pane fade show active" id="pills-overview" role="tabpanel">
+                    <div class="accordion bg-black" id="accordionOverview">
+                        <div class="accordion-item bg-black border-0">
+                            <div class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <div class="row text-white">
+                                        <div class="col-12 col-sm-8 col-md-6 col-lg-4 order-1 order-sm-2 p-4 table-responsive-lg">
+                                            <table class="table table-dark text-center table-bordered p-2" style="table-layout: fixed;">
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="6" style="background-color: orangered;">Kamael</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="6">God of Harvest</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="6">
+                                                            <img src="img/kamael/Kamael_Myth.png" alt="" srcset="" class="img-fluid">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2"><strong>RARITY</strong> <br><br> Unique</td>
+                                                        <td colspan="2"><strong>CLASS</strong> <br><br> Support</td>
+                                                        <td colspan="2"><strong>ELEMENT</strong> <br><br> Earth</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="6" class="bg-th">Compatible Equipments</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="3">Staff</th>
+                                                        <th colspan="3">Accessory</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="6" class="bg-th">Exclusive Weapon</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="6">Equinox</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="6" class="bg-th">HERO INFORMATION</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="text-start">
+                                                    <tr>
+                                                        <th colspan="2">Name</th>
+                                                        <td colspan="4">Kamael</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Title</th>
+                                                        <td colspan="4">God of Harvest</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Gender</th>
+                                                        <td colspan="4">Male</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Age</th>
+                                                        <td colspan="4">Unknown</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Species</th>
+                                                        <td colspan="4">God</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Height</th>
+                                                        <td colspan="4">192cm</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Weight</th>
+                                                        <td colspan="4">92kg</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Related Characters</th>
+                                                        <td colspan="4">
+                                                            <ul class="m-0 py-0 ps-3">
+                                                                <li>Flower Girl Bari</li>
+                                                                <li>Divine Beast of Harvest Mayreel</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th colspan="2">Release Date</th>
+                                                        <td colspan="4">
+                                                            <ul class="m-0 p-0" style="list-style-type: none;">
+                                                                <li>August 27, 2021 (KR)</li>
+                                                                <li>September 7, 2021 (Global)</li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table><hr>
+                                        </div>
+                                        <div class="col order-2 order-sm-1 p-4">
+                                            <div class="text-justify">
+                                                <p>Kamael adalah salah satu karakter dalam gim Guardian Tales yang dikenal sebagai penyihir misterius dengan kekuatan sihir luar biasa. Ia berasal dari dunia yang dipenuhi konflik dan kegelapan, namun tetap mempertahankan ketenangan dan aura anggun dalam setiap tindakannya. Kamael memiliki penampilan yang elegan dengan jubah sihir khas dan tongkat sihir sebagai senjata utamanya. Sebagai penyihir, ia mengandalkan kekuatan elemen untuk mengalahkan musuh-musuhnya, menjadikannya sosok yang sangat berbahaya di medan pertempuran.</p>
+                                                <p>Selain kemampuannya dalam bertarung, Kamael juga dikenal karena kepribadiannya yang tenang dan bijaksana. Ia sering kali berperan sebagai penasehat atau pelindung bagi karakter lain, menunjukkan sisi kepedulian yang tersembunyi di balik ekspresi dinginnya. Keberadaannya dalam tim tidak hanya memperkuat serangan, tetapi juga menambah kedalaman cerita dengan latar belakang dan motivasinya yang menarik. Sebagai karakter yang kompleks, Kamael berhasil menarik perhatian para pemain dan menjadi salah satu tokoh favorit dalam Guardian Tales.</p>
+                                            </div><hr>
+
+                                            <!-- abilities -->
+                                             <h3 class="px-2 my-4">Abilities</h3>
+                                             <div class="container bg-dark p-4 rounded text-justify">
+                                                <div class="col-12">
+                                                    <h4 class="bg-th p-2 rounded">Normal Attack</h4>
+                                                    <h5>Circle of Life</h5>
+                                                    <p>Absorbs enemy's life force to deal damage. On the last Circle of Life's hit, shoots a concentrated orb to heal all allies' HP, and reduces the enemy's ranged Def by 20% for 3 seconds.</p>
+                                                </div> <hr>
+                                                <div class="col-12">
+                                                    <h4 class="bg-th p-2 rounded">Chain Skill — Airbone → Injured</h4>
+                                                    <h5>Earthly Purification</h5>
+                                                    <p>Summons an elemental to deal 220% of DPS damage to nearby enemies. Restores allies' HP by 20% and remove negative Effects.</p>
+                                                </div> <hr>
+                                                <div class="col-12">
+                                                    <h4 class="bg-th p-2 rounded">Special Ability</h4>
+                                                    <h5>Nature's Blessing</h5>
+                                                    <p>Increases Circle of Life's damage and recovery by 25%.</p>
+                                                </div> <hr>
+                                                <div class="col-12">
+                                                    <h4 class="bg-th p-2 rounded">Ex Weapom</h4>
+                                                    <h5>Equinox</h5>
+                                                    [Kamael only] 
+                                                    <p>Attacks a maximum of 3 enemies near Circle of Life. On Circle of Life's hit, deal 25% of DPS damage with 50% chance, and immediately reduces ranged Def effect.</p>
+                                                </div><hr>
+                                            </div><hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lore -->
+                <div class="tab-pane fade" id="pills-lore" role="tabpanel">
+                    <div class="accordion bg-black" id="accordionLore">
+                        <div class="accordion-item bg-black border-0">
+                            <div class="accordion-collapse collapse show">
+                                <div class="accordion-body text-justify text-white">
+                                    <p>Kamael adalah Dewa Panen yang mengawasi fauna dan flora melalui kekuatan bumi dan kehidupan itu sendiri.</p>
+                                    <p>Ia adalah dewa yang melayani Prometheia dan menjalankan tugas menghidupkan kembali Pohon Dunia. Kamael dulunya adalah penyihir hebat dengan mana yang kuat. Ia menjadi dewa setelah diberkati dengan kekuatan ilahi oleh Prometheia saat ia membutuhkan dewa yang lebih rendah untuk mengelola Pohon Dunia. Prioritas utama Kamael saat ini adalah memulihkan Pohon Dunia yang terbakar. Ia akan menebas siapa pun, manusia atau dewa yang mengancamnya.</p>
+                                    <p>Kamael adalah pendiri perusahaan besar, Kamazon . Kamazon adalah pusat perbelanjaan daring yang menerima pesanan dan mengirimkan produk menggunakan drone. Pusat perbelanjaan ini didirikan untuk mencapai tujuan Kamael, yaitu memperoleh kekuatan finansial terbesar di dunia. Taktik bisnisnya sangat agresif. Ia terkenal dalam bisnisnya karena mengalahkan pesaingnya dan menghilangkan pola pikir 'Sebuah android dapat mengabaikan pesanan yang tidak disukainya' pada orang-orang yang ia pekerjakan. Kamael telah membeli reruntuhan Pohon Dunia dengan uang yang diperolehnya dari Kamazon . Tampaknya Kamael mencari petunjuk untuk memulihkan Pohon Dunia sendiri, tetapi karena suatu alasan ia menghentikan semua penyelidikan sepenuhnya. Ia membangun dan membuka sebagian reruntuhan tersebut menjadi taman hiburan Kama-ZONE . Kama-ZONE terkenal karena memiliki banyak artefak mistis dan bahkan sekarang, kelompok-kelompok yang melakukan penyelidikan di dalam area tertutup Kama-ZONE terlihat dari waktu ke waktu. Setelah kelompok-kelompok investigasi menghilang, area tersebut menjalani perawatan dan menjadi area baru bagi Kama-ZONE .</p>
+                                    <p>Dia mungkin seorang CEO perusahaan besar yang dingin dan terkenal, tetapi dia hangat hati terhadap Bari dan Mayreel . Dia menganggap kedua murid yang dibesarkannya dengan penuh kasih sayang seperti anak-anaknya sendiri, tetapi cintanya jarang berbalas seperti orang tua lainnya. Mayreel sangat kesal dengan perhatian Kamael dan itu sering membuatnya sedikit murung. Meskipun mengkhawatirkan Bari dan Mayreel , Kamael selalu mengirim kedua muridnya dalam perjalanan jauh. Apakah itu untuk memulihkan Pohon Dunia, atau untuk menyembunyikan hidupnya sebagai orang perusahaan, tidak diketahui.</p><hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

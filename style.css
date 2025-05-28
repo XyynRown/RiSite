@@ -1,0 +1,141 @@
+html{
+    height: 100%;
+    margin: 0;
+    scroll-padding-top: 110px;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 40px;
+    height: 100%;
+    margin: 0;
+}
+#navbar, #navbar-secondary{
+    transition: 0.3s ease-in-out;
+}
+.navbar-title{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+.navbar-title-games{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.eror404{
+    justify-content: center;
+    display: flex
+}
+.blur-image {
+    filter: blur(50px);
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.overlay-text:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.fade-blur-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Overlay gradasi dari transparan ke hitam */
+.fade-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%; /* seberapa panjang efek pudar */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  pointer-events: none;
+}
+
+/* justify text */
+.text-justify p{
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+/* warna untuk judul */
+.bg-th, .bg-th th{
+    background-color: orangered !important;
+}
+
+/* font size tbody */
+tbody{
+    font-size: 0.9rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #212529; /* dark */
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* cuma biar rapi */
+.table-container {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.content-container {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .table-container {
+    flex: 0 0 35%; /* atau berapa persen yang kamu mau */
+    max-width: 35%;
+  }
+
+  .content-container {
+    flex: 1; /* otomatis isi sisa ruang horizontal */
+  }
+}
+
+/* furina */
+.table-furina-talents tbody th{
+  text-align: center;
+  color: orange;
+}
+.table-furina-talents .desc{
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.table-furina-talents .desc, .table-furina-talents .desc-content{
+  transition: all 0.3 ease-in-out;
+}
+
+.furina-lore{
+  text-align: justify;
+  h4, p{
+    padding-left: 20px;
+  }
+  h4{
+    padding-top: 20px;
+  }
+}
